@@ -1,1 +1,13 @@
-a
+{
+  "name": "google-drive-proxy",
+  "version": "1.0.0",
+  "description": "Stream Google Drive video through proxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  }
+}
